@@ -1,4 +1,4 @@
 <?php
-// déclarer une variable
-    $test = 'test';
+    $name = 'Noémie';
+    echo 'Bonjour ' .$name. ' , comment vas-tu ?';
 ?>
