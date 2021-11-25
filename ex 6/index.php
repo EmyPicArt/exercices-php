@@ -1,4 +1,5 @@
 <?php
-// déclarer une variable
-    $test = 'test';
+    $number = (140 + 30)/2;
+    echo $number;
+
 ?>
