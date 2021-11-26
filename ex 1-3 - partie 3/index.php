@@ -1,5 +1,6 @@
 <?php
-    $number = (140 + 30)/2;
-    echo $number;
+    $months=['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+    var_dump($months) ;
 
 ?>
+<!-- $months= array('Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'); -->
