@@ -6,6 +6,12 @@
         '62' => 'Pas-de-Calais',
         '80' => 'Somme',
     ];
-    var_dump($departements);
+    // var_dump($departements);
+    foreach ($departements as $element){
+        echo ($element. '<br />');
+    }
+    foreach ($departements as $number=>$name){
+        echo ('Le département ' .$name. ' a le numéro : ' .$number. '<br />');
+    }
 
 ?>
