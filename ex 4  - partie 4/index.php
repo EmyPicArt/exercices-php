@@ -1,5 +1,11 @@
 <?php
-    $number = (140 + 30)/2;
-    echo $number;
+    $name = 'Doe';
+    $firstName = 'John';
+    $age = 20;
+
+function identity ($paramName, $paramFirstName, $paramAge){
+    return $paramName; $paramFirstName; $paramAge;
+}
+    echo 'Bonjour '.$firstName. ' ' .$name. ' tu as ' .$age. ' ans';
 
 ?>
