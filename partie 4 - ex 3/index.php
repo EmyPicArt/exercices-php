@@ -1,5 +1,5 @@
 <?php
-    $entier1 = 10;
+    $entier1 = 15;
     $entier2 = 10;
 
 // Je nomme ma fonction "compare" et je lui attribue 2 paramètres ("$paramEntier1 et $paramEntier2")
